@@ -4,7 +4,7 @@
       "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.141520",
+   "generated_by" : "ExtUtils::MakeMaker version 7.0505, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "artistic_2"
    ],
@@ -41,6 +41,24 @@
          }
       }
    },
+   "provides" : {
+      "Map::Tube::Barcelona" : {
+         "file" : "lib/Map/Tube/Barcelona.pm",
+         "version" : "0.12"
+      },
+      "Map::Tube::Barcelona::Line::L11" : {
+         "file" : "lib/Map/Tube/Barcelona/Line/L11.pm",
+         "version" : "0.12"
+      },
+      "Map::Tube::Barcelona::Line::L3" : {
+         "file" : "lib/Map/Tube/Barcelona/Line/L3.pm",
+         "version" : "0.12"
+      },
+      "Map::Tube::Barcelona::Line::L4" : {
+         "file" : "lib/Map/Tube/Barcelona/Line/L4.pm",
+         "version" : "0.12"
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "repository" : {
@@ -49,5 +67,6 @@
          "web" : "https://github.com/Manwar/Map-Tube-Barcelona"
       }
    },
-   "version" : "0.11"
+   "version" : "0.12"
 }
+

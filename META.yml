@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 7, CPAN::Meta::Converter version 2.141520'
+generated_by: 'ExtUtils::MakeMaker version 7.0505, CPAN::Meta::Converter version 2.143240'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,6 +17,19 @@ no_index:
   directory:
     - t
     - inc
+provides:
+  Map::Tube::Barcelona:
+    file: lib/Map/Tube/Barcelona.pm
+    version: '0.12'
+  Map::Tube::Barcelona::Line::L11:
+    file: lib/Map/Tube/Barcelona/Line/L11.pm
+    version: '0.12'
+  Map::Tube::Barcelona::Line::L3:
+    file: lib/Map/Tube/Barcelona/Line/L3.pm
+    version: '0.12'
+  Map::Tube::Barcelona::Line::L4:
+    file: lib/Map/Tube/Barcelona/Line/L4.pm
+    version: '0.12'
 requires:
   File::Share: '0'
   File::ShareDir::Install: '0'
@@ -26,4 +39,5 @@ requires:
   perl: '5.006'
 resources:
   repository: https://github.com/Manwar/Map-Tube-Barcelona.git
-version: '0.11'
+version: '0.12'
+
